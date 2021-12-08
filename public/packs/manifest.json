@@ -1,0 +1,24 @@
+{
+  "application.js": "/packs/js/application-d22437b2cef4aea58b02.js",
+  "application.js.map": "/packs/js/application-d22437b2cef4aea58b02.js.map",
+  "checkout.js": "/packs/js/checkout-9f0e360ef1c59ecfb06d.js",
+  "checkout.js.map": "/packs/js/checkout-9f0e360ef1c59ecfb06d.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-d22437b2cef4aea58b02.js"
+      ],
+      "js.map": [
+        "/packs/js/application-d22437b2cef4aea58b02.js.map"
+      ]
+    },
+    "checkout": {
+      "js": [
+        "/packs/js/checkout-9f0e360ef1c59ecfb06d.js"
+      ],
+      "js.map": [
+        "/packs/js/checkout-9f0e360ef1c59ecfb06d.js.map"
+      ]
+    }
+  }
+}

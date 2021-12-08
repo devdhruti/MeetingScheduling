@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MeetingScheduling</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <%= tag :meta, name: "stripe-public-key", content: Rails.application.credentials.stripe[:publishable_key] %>
+  </head>
+
+  <body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1a1818">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <%= link_to "Home", root_path, :class => 'nav-link active fs-5 pr-3' %>
+            </li>
+
+            <% if user_signed_in? %>
+              <li class="nav-item">
+                <%= link_to "Meetings", meetings_path, :class => 'nav-link fs-5 pr-3' %>
+              </li>
+              <li class="nav-item">
+                <%= link_to "New Meeting", new_meeting_path, :class => 'nav-link fs-5 pr-3' %>
+              </li>
+            </ul>
+              <form class="d-flex">
+                <li><%= link_to "Log out", '/users/sign_out', :class => 'btn btn-primary btn-group-sm border border-secondary fs-5', :method => :delete %></li>
+              </form>
+
+            <% else %>
+          </ul>
+            <form class="d-flex">
+              <li><%= link_to "Sign up", new_user_registration_path , :class => 'btn btn-primary btn-group-sm border border-secondary fs-5' %></li>
+              <li><%= link_to "Log in", new_user_session_path, :class => 'btn btn-primary btn-group-sm border border-secondary fs-5' %></li>
+            </form>
+            <% end %>
+        </div>
+      </div>
+    </nav>
+
+    <!-- displaying flash messages -->
+    <% flash.each do |key, value| %>
+      <% if key=alert %>
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+          <%= value %>
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      <% else %>
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+          <%= value %>
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      <% end %>
+    <% end %>
+
+    <%= yield %>
+  </body>
+</html>

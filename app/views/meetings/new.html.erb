@@ -1,0 +1,25 @@
+<div class="fluid p-3"> 
+  <%= form_with(model: @meeting, local: true, class: "meeting-form") do |form| %>
+
+    <h3 class="mb-4 border-secondary" style="border-bottom:2px solid">Meeting Information</h3>
+
+    <div class="mb-6">
+      <%= image_tag "edit.png", class: "img-fluid" %>
+      <%= form.text_field :title, class: "input", placeholder: "Add Title" %>
+    </div>
+
+      <%= form.number_field :user_id, value: current_user.id, type: :hidden %>
+
+      <div class="flex items-center justify-between max-w-md mt-3">
+        <%= image_tag "time.png", class: "img-fluid", style: "width:25px" %>
+        <%= form.datetime_select :start_time, { start_day: Date.today, start_year: Date.today.year, minute_step: 5 }, { class: "select py-2 px-2 mr-2" } %> ----->
+        <%= form.datetime_select :end_time, { start_day: Date.today, start_year: Date.today.year, minute_step: 5 }, { class: "select py-2 px-2 mr-2" } %>
+      </div>
+
+
+    <%= render "payment.html.erb" %>
+
+    <%= form.submit class: "text-base py-1 px-2 my-3 ms-4" %>
+  <% end %>
+</div>
+<%= link_to 'back', meetings_path, class: "ms-3", style: "text-decoration:none" %>
