@@ -28,6 +28,9 @@ gem 'devise'
 # for backgound processing
 gem 'sidekiq'
 
+# Add Admin panel
+gem 'activeadmin'
+
 #using kt-paperclip gem for image processing
 gem "kt-paperclip", "~> 6.4", ">= 6.4.1"
 
