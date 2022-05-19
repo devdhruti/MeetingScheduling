@@ -21,7 +21,7 @@ class MeetingsController < ApplicationController
     card_exp_month = params[:user][:card_exp_month]
     card_exp_year = params[:user][:card_exp_year]
     card_last4 = params[:user][:card_last4]
-    Stripe.api_key = Rails.application.credentials.stripe[:secret_key]
+    Stripe.api_key = Rails.application.secrets.stripe_api_key
 
     charge = Stripe::Charge.create(
       amount: 50000,
