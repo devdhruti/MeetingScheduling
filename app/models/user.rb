@@ -11,6 +11,6 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable, :confirmable
 
   def admin?
-    AdminUser.find_by(email: self.email).present? ? true : false
+    AdminUser.find_by(email: self.email) ? true : false
   end
 end

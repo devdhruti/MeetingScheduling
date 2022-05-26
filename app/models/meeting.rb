@@ -6,7 +6,7 @@ class Meeting < ApplicationRecord
   validate :end_after_start
   validates :start_time, :end_time, :presence => true, :overlap => {:scope => "user_id"}
 
-  scope :tomorrow_meeting, -> { where(start_time: Date.tomorrow.beginning_of_day .. Date.tomorrow.end_of_day) }
+  scope :tomorrow_meetings, -> { where(start_time: Date.tomorrow.beginning_of_day .. Date.tomorrow.end_of_day) }
 
   private
   def end_after_start
