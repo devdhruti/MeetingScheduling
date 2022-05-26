@@ -2,7 +2,12 @@ class MeetingsController < ApplicationController
   before_action :authenticate_user!
 
   def index
-    @meetings = current_user.meetings.all.order('start_time')
+    if current_user.admin?
+      meeting = Meeting.all
+    else
+      meeting = current_user.meetings
+    end
+    @meetings = meeting.all.order('start_time')
     @todays_meeting = @meetings.select {|x| x.start_time.day == Time.current.day}
     @upcoming_meeting = @meetings.select {|x| x.start_time.day > Time.current.day}
     @completed_meeting = @meetings.select {|x| x.start_time.day < Time.current.day}
@@ -17,10 +22,10 @@ class MeetingsController < ApplicationController
     @meeting.user_id = current_user.id
 
     token = params[:stripeToken]
-    card_brand = params[:user][:card_brand]
-    card_exp_month = params[:user][:card_exp_month]
-    card_exp_year = params[:user][:card_exp_year]
-    card_last4 = params[:user][:card_last4]
+    card_brand = params[:payment_card][:card_brand]
+    card_exp_month = params[:payment_card][:card_exp_month]
+    card_exp_year = params[:payment_card][:card_exp_year]
+    card_last4 = params[:payment_card][:card_last4]
     Stripe.api_key = Rails.application.secrets.stripe_api_key
 
     charge = Stripe::Charge.create(
@@ -30,15 +35,18 @@ class MeetingsController < ApplicationController
       source: token
     )
 
-    current_user.stripe_id = charge.id
-    current_user.card_brand = card_brand
-    current_user.card_exp_month = card_exp_month
-    current_user.card_exp_year = card_exp_year
-    current_user.card_last4 = card_last4
-    current_user.save!
+    card = PaymentCard.find_or_initialize_by(card_last4: params[:payment_card][:card_last4])
+    card.user_id = @meeting.user_id
+    card.stripe_id = charge.id
+    card.card_brand = card_brand
+    card.card_exp_month = card_exp_month
+    card.card_exp_year = card_exp_year
+    card.card_last4 = card_last4
+    # card.save!
 
-    if @meeting.save
-      SendMailWorker.perform_async(current_user.email, 5)
+    if @meeting.save && card.save
+      message = "Hey, you have booked #{@meeting.title} meeting. The meeting is at #{@meeting.start_time.strftime("%I:%M%p")} on #{@meeting.start_time.to_date} date"
+      TwilioClient.new.send_text(@meeting.user, message)
       redirect_to @meeting, notice: 'Meeting was successfully created.'
     else
       flash[:alert] = @meeting.errors.full_messages.first

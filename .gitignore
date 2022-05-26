@@ -4,3 +4,8 @@ log/development.log
 node_modules
 tmp/cache/assets
 tmp/cache/bootsnap
+tmp/cache/webpacker
+public/packs/js
+bin
+.bundle
+yarn-error.log

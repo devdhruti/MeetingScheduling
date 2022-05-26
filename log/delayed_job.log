@@ -1,0 +1,219 @@
+# Logfile created on 2022-05-20 17:29:49 +0530 by logger.rb/v1.4.2
+I, [2022-05-20T17:32:19.705851 #108194]  INFO -- : 2022-05-20T17:32:19+0530: [Worker(host:sf-cpu-539 pid:108194)] Starting job worker
+I, [2022-05-20T17:32:19.748265 #108194]  INFO -- : 2022-05-20T17:32:19+0530: [Worker(host:sf-cpu-539 pid:108194)] Job SendMessage#perform_without_delay (id=1) (queue=default) RUNNING
+E, [2022-05-20T17:32:19.750023 #108194] ERROR -- : 2022-05-20T17:32:19+0530: [Worker(host:sf-cpu-539 pid:108194)] Job SendMessage#perform_without_delay (id=1) (queue=default) FAILED (0 prior attempts) with NoMethodError: undefined method `log' for nil:NilClass
+I, [2022-05-20T17:32:19.764151 #108194]  INFO -- : 2022-05-20T17:32:19+0530: [Worker(host:sf-cpu-539 pid:108194)] 1 jobs processed at 17.2509 j/s, 1 failed
+I, [2022-05-20T17:33:05.103542 #108194]  INFO -- : 2022-05-20T17:33:05+0530: [Worker(host:sf-cpu-539 pid:108194)] Exiting...
+
+
+
+I, [2022-05-20T17:35:55.343331 #109179]  INFO -- : 2022-05-20T17:35:55+0530: [Worker(host:sf-cpu-539 pid:109179)] Starting job worker
+I, [2022-05-20T17:35:55.368858 #109179]  INFO -- : 2022-05-20T17:35:55+0530: [Worker(host:sf-cpu-539 pid:109179)] Job SendMessage#perform_without_delay (id=2) (queue=default) RUNNING
+I, [2022-05-20T17:35:55.380260 #109179]  INFO -- : 2022-05-20T17:35:55+0530: [Worker(host:sf-cpu-539 pid:109179)] Job SendMessage#perform_without_delay (id=2) (queue=default) COMPLETED after 0.0104
+I, [2022-05-20T17:35:55.382534 #109179]  INFO -- : 2022-05-20T17:35:55+0530: [Worker(host:sf-cpu-539 pid:109179)] 1 jobs processed at 25.7323 j/s, 0 failed
+
+
+
+
+
+I, [2022-05-20T17:48:57.514413 #109179]  INFO -- : 2022-05-20T17:48:57+0530: [Worker(host:sf-cpu-539 pid:109179)] Job SendMessage#perform_without_delay (id=3) (queue=default) RUNNING
+I, [2022-05-20T17:48:57.543871 #109179]  INFO -- : 2022-05-20T17:48:57+0530: [Worker(host:sf-cpu-539 pid:109179)] Job SendMessage#perform_without_delay (id=3) (queue=default) COMPLETED after 0.0291
+I, [2022-05-20T17:48:57.547899 #109179]  INFO -- : 2022-05-20T17:48:57+0530: [Worker(host:sf-cpu-539 pid:109179)] 1 jobs processed at 20.2677 j/s, 0 failed
+
+
+
+
+I, [2022-05-20T17:51:24.141684 #109179]  INFO -- : 2022-05-20T17:51:24+0530: [Worker(host:sf-cpu-539 pid:109179)] Exiting...
+I, [2022-05-20T18:01:47.417003 #117509]  INFO -- : 2022-05-20T18:01:47+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] Starting job worker
+I, [2022-05-20T18:01:47.443111 #117509]  INFO -- : 2022-05-20T18:01:47+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] Job SendMessage#perform_without_delay (id=5) (queue=default) RUNNING
+I, [2022-05-20T18:01:47.504621 #117509]  INFO -- : 2022-05-20T18:01:47+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] Job SendMessage#perform_without_delay (id=5) (queue=default) COMPLETED after 0.0613
+I, [2022-05-20T18:01:47.506811 #117509]  INFO -- : 2022-05-20T18:01:47+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] 1 jobs processed at 11.1532 j/s, 0 failed
+
+
+
+
+I, [2022-05-20T18:02:47.794090 #117509]  INFO -- : 2022-05-20T18:02:47+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] Job SendMessage#perform_without_delay (id=6) (queue=default) RUNNING
+I, [2022-05-20T18:02:47.866761 #117509]  INFO -- : 2022-05-20T18:02:47+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] Job SendMessage#perform_without_delay (id=6) (queue=default) COMPLETED after 0.0725
+I, [2022-05-20T18:02:47.868970 #117509]  INFO -- : 2022-05-20T18:02:47+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] 1 jobs processed at 11.6172 j/s, 0 failed
+
+
+
+
+
+
+
+
+
+I, [2022-05-20T18:33:52.910493 #117509]  INFO -- : 2022-05-20T18:33:52+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] Job SendMessage.method (id=7) (queue=default) RUNNING
+E, [2022-05-20T18:33:52.911136 #117509] ERROR -- : 2022-05-20T18:33:52+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] Job SendMessage.method (id=7) (queue=default) FAILED (0 prior attempts) with ArgumentError: wrong number of arguments (given 0, expected 1)
+I, [2022-05-20T18:33:52.934382 #117509]  INFO -- : 2022-05-20T18:33:52+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] 1 jobs processed at 19.6168 j/s, 1 failed
+I, [2022-05-20T18:34:53.145806 #117509]  INFO -- : 2022-05-20T18:34:53+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] Job SendMessage.method (id=7) (queue=default) RUNNING
+E, [2022-05-20T18:34:53.146830 #117509] ERROR -- : 2022-05-20T18:34:53+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] Job SendMessage.method (id=7) (queue=default) FAILED (1 prior attempts) with ArgumentError: wrong number of arguments (given 0, expected 1)
+I, [2022-05-20T18:34:53.161378 #117509]  INFO -- : 2022-05-20T18:34:53+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] 1 jobs processed at 28.4947 j/s, 1 failed
+I, [2022-05-20T18:45:54.898616 #117509]  INFO -- : 2022-05-20T18:45:54+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] Job SendMessage.inspect (id=8) (queue=default) RUNNING
+I, [2022-05-20T18:45:54.908063 #117509]  INFO -- : 2022-05-20T18:45:54+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] Job SendMessage.inspect (id=8) (queue=default) COMPLETED after 0.0093
+I, [2022-05-20T18:45:54.911618 #117509]  INFO -- : 2022-05-20T18:45:54+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] 1 jobs processed at 39.4303 j/s, 0 failed
+
+
+
+
+I, [2022-05-20T18:49:55.550624 #117509]  INFO -- : 2022-05-20T18:49:55+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] Job SendMessage.inspect (id=9) (queue=default) RUNNING
+I, [2022-05-20T18:49:55.560810 #117509]  INFO -- : 2022-05-20T18:49:55+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] Job SendMessage.inspect (id=9) (queue=default) COMPLETED after 0.0101
+I, [2022-05-20T18:49:55.562919 #117509]  INFO -- : 2022-05-20T18:49:55+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] 1 jobs processed at 41.7202 j/s, 0 failed
+I, [2022-05-20T18:55:56.476067 #117509]  INFO -- : 2022-05-20T18:55:56+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] Job SendMessage (id=10) (queue=default) RUNNING
+I, [2022-05-20T18:55:56.497899 #117509]  INFO -- : 2022-05-20T18:55:56+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] Job SendMessage (id=10) (queue=default) COMPLETED after 0.0217
+I, [2022-05-20T18:55:56.511019 #117509]  INFO -- : 2022-05-20T18:55:56+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] Job SendMessage#perform_without_delay (id=11) (queue=default) RUNNING
+I, [2022-05-20T18:55:56.567971 #117509]  INFO -- : 2022-05-20T18:55:56+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] Job SendMessage#perform_without_delay (id=11) (queue=default) COMPLETED after 0.0568
+I, [2022-05-20T18:55:56.570400 #117509]  INFO -- : 2022-05-20T18:55:56+0530: [Worker(delayed_job host:sf-cpu-539 pid:117509)] 2 jobs processed at 18.6330 j/s, 0 failed
+I, [2022-05-23T11:13:39.207515 #19437]  INFO -- : 2022-05-23T11:13:39+0530: [Worker(delayed_job host:sf-cpu-539 pid:19437)] Starting job worker
+I, [2022-05-23T11:13:39.239159 #19437]  INFO -- : 2022-05-23T11:13:39+0530: [Worker(delayed_job host:sf-cpu-539 pid:19437)] Job SendMessage#perform_without_delay (id=15) (queue=default) RUNNING
+E, [2022-05-23T11:13:39.240225 #19437] ERROR -- : 2022-05-23T11:13:39+0530: [Worker(delayed_job host:sf-cpu-539 pid:19437)] Job SendMessage#perform_without_delay (id=15) (queue=default) FAILED (0 prior attempts) with ArgumentError: wrong number of arguments (given 0, expected 1)
+I, [2022-05-23T11:13:39.257031 #19437]  INFO -- : 2022-05-23T11:13:39+0530: [Worker(delayed_job host:sf-cpu-539 pid:19437)] 1 jobs processed at 20.3998 j/s, 1 failed
+I, [2022-05-23T11:17:40.035385 #19437]  INFO -- : 2022-05-23T11:17:40+0530: [Worker(delayed_job host:sf-cpu-539 pid:19437)] Job SendMessage#perform_without_delay (id=16) (queue=default) RUNNING
+I, [2022-05-23T11:17:40.083188 #19437]  INFO -- : 2022-05-23T11:17:40+0530: [Worker(delayed_job host:sf-cpu-539 pid:19437)] Job SendMessage#perform_without_delay (id=16) (queue=default) COMPLETED after 0.0477
+I, [2022-05-23T11:17:40.085258 #19437]  INFO -- : 2022-05-23T11:17:40+0530: [Worker(delayed_job host:sf-cpu-539 pid:19437)] 1 jobs processed at 12.5750 j/s, 0 failed
+I, [2022-05-23T11:26:41.540635 #19437]  INFO -- : 2022-05-23T11:26:41+0530: [Worker(delayed_job host:sf-cpu-539 pid:19437)] Job SendMessage#perform_without_delay (id=17) (queue=default) RUNNING
+I, [2022-05-23T11:26:41.594588 #19437]  INFO -- : 2022-05-23T11:26:41+0530: [Worker(delayed_job host:sf-cpu-539 pid:19437)] Job SendMessage#perform_without_delay (id=17) (queue=default) COMPLETED after 0.0538
+I, [2022-05-23T11:26:41.596413 #19437]  INFO -- : 2022-05-23T11:26:41+0530: [Worker(delayed_job host:sf-cpu-539 pid:19437)] 1 jobs processed at 12.1551 j/s, 0 failed
+I, [2022-05-23T15:42:15.063175 #15139]  INFO -- : 2022-05-23T15:42:15+0530: [Worker(delayed_job host:sf-cpu-539 pid:15139)] Starting job worker
+I, [2022-05-23T15:42:15.091608 #15139]  INFO -- : 2022-05-23T15:42:15+0530: [Worker(delayed_job host:sf-cpu-539 pid:15139)] Job Delayed::PerformableMethod (id=31) (queue=default) RUNNING
+E, [2022-05-23T15:42:15.096041 #15139] ERROR -- : 2022-05-23T15:42:15+0530: [Worker(delayed_job host:sf-cpu-539 pid:15139)] Job Delayed::PerformableMethod (id=31) (queue=default) FAILED permanently with Delayed::DeserializationError: Job failed to load: undefined method `yesterday' for nil:NilClass. Handler: "--- !ruby/object:Delayed::PerformableMethod\nobject: !ruby/object:SendMessage {}\nmethod_name: :perform_without_delay\nargs:\n- !ruby/object:Meeting\n  concise_attributes:\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: id\n    value_before_type_cast: 5\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: title\n    value_before_type_cast: test\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: start_time\n    value_before_type_cast: 2022-05-24 15:40:00.000000000 Z\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: end_time\n    value_before_type_cast: 2022-05-24 15:55:00.000000000 Z\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: user_id\n    value_before_type_cast: 1\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: created_at\n    value_before_type_cast: 2022-05-23 10:07:08.326151000 Z\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: updated_at\n    value_before_type_cast: 2022-05-23 10:07:08.326151000 Z\n  new_record: false\n  active_record_yaml_version: 2\n"
+I, [2022-05-23T15:43:29.707672 #15139]  INFO -- : 2022-05-23T15:43:29+0530: [Worker(delayed_job host:sf-cpu-539 pid:15139)] Exiting...
+I, [2022-05-23T15:43:51.200398 #15597]  INFO -- : 2022-05-23T15:43:51+0530: [Worker(delayed_job host:sf-cpu-539 pid:15597)] Starting job worker
+
+
+
+
+
+I, [2022-05-23T15:50:52.407194 #15597]  INFO -- : 2022-05-23T15:50:52+0530: [Worker(delayed_job host:sf-cpu-539 pid:15597)] Job Delayed::PerformableMethod (id=32) (queue=default) RUNNING
+E, [2022-05-23T15:50:52.411572 #15597] ERROR -- : 2022-05-23T15:50:52+0530: [Worker(delayed_job host:sf-cpu-539 pid:15597)] Job Delayed::PerformableMethod (id=32) (queue=default) FAILED permanently with Delayed::DeserializationError: Job failed to load: undefined method `yesterday' for nil:NilClass. Handler: "--- !ruby/object:Delayed::PerformableMethod\nobject: !ruby/object:SendMessage {}\nmethod_name: :perform_without_delay\nargs:\n- !ruby/object:Meeting\n  concise_attributes:\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: id\n    value_before_type_cast: 6\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: title\n    value_before_type_cast: test\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: start_time\n    value_before_type_cast: 2022-05-24 15:50:00.000000000 Z\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: end_time\n    value_before_type_cast: 2022-05-24 15:55:00.000000000 Z\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: user_id\n    value_before_type_cast: 1\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: created_at\n    value_before_type_cast: 2022-05-23 10:15:19.648531000 Z\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: updated_at\n    value_before_type_cast: 2022-05-23 10:15:19.648531000 Z\n  new_record: false\n  active_record_yaml_version: 2\n"
+I, [2022-05-23T16:20:57.232797 #15597]  INFO -- : 2022-05-23T16:20:57+0530: [Worker(delayed_job host:sf-cpu-539 pid:15597)] Job SendMessage#perform_without_delay (id=33) (queue=default) RUNNING
+E, [2022-05-23T16:20:57.237173 #15597] ERROR -- : 2022-05-23T16:20:57+0530: [Worker(delayed_job host:sf-cpu-539 pid:15597)] Job SendMessage#perform_without_delay (id=33) (queue=default) FAILED (0 prior attempts) with NoMethodError: undefined method `comment' for #<Meeting:0x000055cd3e9f2ed0>
+Did you mean?  comments
+               comments=
+I, [2022-05-23T16:20:57.249645 #15597]  INFO -- : 2022-05-23T16:20:57+0530: [Worker(delayed_job host:sf-cpu-539 pid:15597)] 1 jobs processed at 23.7172 j/s, 1 failed
+I, [2022-05-23T16:21:57.431146 #15597]  INFO -- : 2022-05-23T16:21:57+0530: [Worker(delayed_job host:sf-cpu-539 pid:15597)] Job SendMessage#perform_without_delay (id=33) (queue=default) RUNNING
+E, [2022-05-23T16:21:57.451413 #15597] ERROR -- : 2022-05-23T16:21:57+0530: [Worker(delayed_job host:sf-cpu-539 pid:15597)] Job SendMessage#perform_without_delay (id=33) (queue=default) FAILED (1 prior attempts) with NoMethodError: undefined method `comment' for #<Meeting:0x000055cd40bb5400>
+Did you mean?  comments
+               comments=
+I, [2022-05-23T16:21:57.477504 #15597]  INFO -- : 2022-05-23T16:21:57+0530: [Worker(delayed_job host:sf-cpu-539 pid:15597)] Job SendMessage#perform_without_delay (id=34) (queue=default) RUNNING
+E, [2022-05-23T16:21:57.489578 #15597] ERROR -- : 2022-05-23T16:21:57+0530: [Worker(delayed_job host:sf-cpu-539 pid:15597)] Job SendMessage#perform_without_delay (id=34) (queue=default) FAILED (0 prior attempts) with NoMethodError: undefined method `comment' for #<Meeting:0x000055cd3eaecef8>
+Did you mean?  comments
+               comments=
+I, [2022-05-23T16:21:57.501974 #15597]  INFO -- : 2022-05-23T16:21:57+0530: [Worker(delayed_job host:sf-cpu-539 pid:15597)] 2 jobs processed at 20.5177 j/s, 2 failed
+I, [2022-05-23T16:22:57.681877 #15597]  INFO -- : 2022-05-23T16:22:57+0530: [Worker(delayed_job host:sf-cpu-539 pid:15597)] Job SendMessage#perform_without_delay (id=34) (queue=default) RUNNING
+E, [2022-05-23T16:22:57.690525 #15597] ERROR -- : 2022-05-23T16:22:57+0530: [Worker(delayed_job host:sf-cpu-539 pid:15597)] Job SendMessage#perform_without_delay (id=34) (queue=default) FAILED (1 prior attempts) with NoMethodError: undefined method `comment' for #<Meeting:0x000055cd40a2b698>
+Did you mean?  comments
+               comments=
+I, [2022-05-23T16:22:57.717656 #15597]  INFO -- : 2022-05-23T16:22:57+0530: [Worker(delayed_job host:sf-cpu-539 pid:15597)] Job SendMessage#perform_without_delay (id=33) (queue=default) RUNNING
+E, [2022-05-23T16:22:57.728497 #15597] ERROR -- : 2022-05-23T16:22:57+0530: [Worker(delayed_job host:sf-cpu-539 pid:15597)] Job SendMessage#perform_without_delay (id=33) (queue=default) FAILED (2 prior attempts) with NoMethodError: undefined method `comment' for #<Meeting:0x000055cd3eb5fc50>
+Did you mean?  comments
+               comments=
+E, [2022-05-23T16:22:57.728577 #15597] ERROR -- : 2022-05-23T16:22:57+0530: [Worker(delayed_job host:sf-cpu-539 pid:15597)] Job SendMessage#perform_without_delay (id=33) (queue=default) FAILED permanently because of 3 consecutive failures
+I, [2022-05-23T17:00:12.783455 #34398]  INFO -- : 2022-05-23T17:00:12+0530: [Worker(delayed_job host:sf-cpu-539 pid:34398)] Starting job worker
+I, [2022-05-23T17:00:12.831017 #34398]  INFO -- : 2022-05-23T17:00:12+0530: [Worker(delayed_job host:sf-cpu-539 pid:34398)] Job SendMessage (id=43) (queue=default) RUNNING
+I, [2022-05-23T17:00:12.850816 #34398]  INFO -- : 2022-05-23T17:00:12+0530: [Worker(delayed_job host:sf-cpu-539 pid:34398)] Job SendMessage (id=43) (queue=default) COMPLETED after 0.0196
+I, [2022-05-23T17:00:12.853226 #34398]  INFO -- : 2022-05-23T17:00:12+0530: [Worker(delayed_job host:sf-cpu-539 pid:34398)] 1 jobs processed at 14.3715 j/s, 0 failed
+
+
+
+
+I, [2022-05-23T17:02:13.307548 #34398]  INFO -- : 2022-05-23T17:02:13+0530: [Worker(delayed_job host:sf-cpu-539 pid:34398)] Job SendMessage#perform_without_delay (id=44) (queue=default) RUNNING
+E, [2022-05-23T17:02:13.308492 #34398] ERROR -- : 2022-05-23T17:02:13+0530: [Worker(delayed_job host:sf-cpu-539 pid:34398)] Job SendMessage#perform_without_delay (id=44) (queue=default) FAILED (0 prior attempts) with ArgumentError: wrong number of arguments (given 0, expected 1)
+I, [2022-05-23T17:02:13.320375 #34398]  INFO -- : 2022-05-23T17:02:13+0530: [Worker(delayed_job host:sf-cpu-539 pid:34398)] 1 jobs processed at 32.7102 j/s, 1 failed
+I, [2022-05-23T17:06:13.938475 #34398]  INFO -- : 2022-05-23T17:06:13+0530: [Worker(delayed_job host:sf-cpu-539 pid:34398)] Job SendMessage#perform_without_delay (id=45) (queue=default) RUNNING
+E, [2022-05-23T17:06:13.943020 #34398] ERROR -- : 2022-05-23T17:06:13+0530: [Worker(delayed_job host:sf-cpu-539 pid:34398)] Job SendMessage#perform_without_delay (id=45) (queue=default) FAILED (0 prior attempts) with NoMethodError: undefined method `comment' for #<Meeting:0x000056376012af28>
+Did you mean?  comments
+               comments=
+I, [2022-05-23T17:06:13.954498 #34398]  INFO -- : 2022-05-23T17:06:13+0530: [Worker(delayed_job host:sf-cpu-539 pid:34398)] 1 jobs processed at 24.1190 j/s, 1 failed
+I, [2022-05-23T17:07:14.143963 #34398]  INFO -- : 2022-05-23T17:07:14+0530: [Worker(delayed_job host:sf-cpu-539 pid:34398)] Job SendMessage#perform_without_delay (id=45) (queue=default) RUNNING
+E, [2022-05-23T17:07:14.152275 #34398] ERROR -- : 2022-05-23T17:07:14+0530: [Worker(delayed_job host:sf-cpu-539 pid:34398)] Job SendMessage#perform_without_delay (id=45) (queue=default) FAILED (1 prior attempts) with NoMethodError: undefined method `comment' for #<Meeting:0x00005637609b95e0>
+Did you mean?  comments
+               comments=
+I, [2022-05-23T17:07:14.165240 #34398]  INFO -- : 2022-05-23T17:07:14+0530: [Worker(delayed_job host:sf-cpu-539 pid:34398)] 1 jobs processed at 20.6236 j/s, 1 failed
+I, [2022-05-23T17:10:04.179042 #34398]  INFO -- : 2022-05-23T17:10:04+0530: [Worker(delayed_job host:sf-cpu-539 pid:34398)] Exiting...
+I, [2022-05-23T17:10:16.074445 #36666]  INFO -- : 2022-05-23T17:10:16+0530: [Worker(delayed_job host:sf-cpu-539 pid:36666)] Starting job worker
+I, [2022-05-23T17:13:16.703517 #36666]  INFO -- : 2022-05-23T17:13:16+0530: [Worker(delayed_job host:sf-cpu-539 pid:36666)] Job SendMessage#perform_without_delay (id=51) (queue=default) RUNNING
+E, [2022-05-23T17:13:16.706662 #36666] ERROR -- : 2022-05-23T17:13:16+0530: [Worker(delayed_job host:sf-cpu-539 pid:36666)] Job SendMessage#perform_without_delay (id=51) (queue=default) FAILED (0 prior attempts) with NoMethodError: undefined method `title' for nil:NilClass
+I, [2022-05-23T17:13:16.722822 #36666]  INFO -- : 2022-05-23T17:13:16+0530: [Worker(delayed_job host:sf-cpu-539 pid:36666)] 1 jobs processed at 20.3961 j/s, 1 failed
+I, [2022-05-23T17:14:16.890872 #36666]  INFO -- : 2022-05-23T17:14:16+0530: [Worker(delayed_job host:sf-cpu-539 pid:36666)] Job SendMessage#perform_without_delay (id=51) (queue=default) RUNNING
+E, [2022-05-23T17:14:16.894011 #36666] ERROR -- : 2022-05-23T17:14:16+0530: [Worker(delayed_job host:sf-cpu-539 pid:36666)] Job SendMessage#perform_without_delay (id=51) (queue=default) FAILED (1 prior attempts) with NoMethodError: undefined method `title' for nil:NilClass
+I, [2022-05-23T17:14:16.912095 #36666]  INFO -- : 2022-05-23T17:14:16+0530: [Worker(delayed_job host:sf-cpu-539 pid:36666)] 1 jobs processed at 27.9288 j/s, 1 failed
+I, [2022-05-23T17:15:17.082507 #36666]  INFO -- : 2022-05-23T17:15:17+0530: [Worker(delayed_job host:sf-cpu-539 pid:36666)] Job SendMessage#perform_without_delay (id=51) (queue=default) RUNNING
+E, [2022-05-23T17:15:17.085379 #36666] ERROR -- : 2022-05-23T17:15:17+0530: [Worker(delayed_job host:sf-cpu-539 pid:36666)] Job SendMessage#perform_without_delay (id=51) (queue=default) FAILED (2 prior attempts) with NoMethodError: undefined method `title' for nil:NilClass
+E, [2022-05-23T17:15:17.085501 #36666] ERROR -- : 2022-05-23T17:15:17+0530: [Worker(delayed_job host:sf-cpu-539 pid:36666)] Job SendMessage#perform_without_delay (id=51) (queue=default) FAILED permanently because of 3 consecutive failures
+I, [2022-05-23T17:17:31.440445 #38272]  INFO -- : 2022-05-23T17:17:31+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Starting job worker
+I, [2022-05-23T17:18:31.754483 #38272]  INFO -- : 2022-05-23T17:18:31+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=52) (queue=default) RUNNING
+E, [2022-05-23T17:18:31.757812 #38272] ERROR -- : 2022-05-23T17:18:31+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=52) (queue=default) FAILED (0 prior attempts) with NoMethodError: undefined method `title' for nil:NilClass
+I, [2022-05-23T17:18:31.774034 #38272]  INFO -- : 2022-05-23T17:18:31+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] 1 jobs processed at 21.5729 j/s, 1 failed
+I, [2022-05-23T17:19:31.960029 #38272]  INFO -- : 2022-05-23T17:19:31+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=52) (queue=default) RUNNING
+E, [2022-05-23T17:19:31.963616 #38272] ERROR -- : 2022-05-23T17:19:31+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=52) (queue=default) FAILED (1 prior attempts) with NoMethodError: undefined method `title' for nil:NilClass
+I, [2022-05-23T17:19:31.980709 #38272]  INFO -- : 2022-05-23T17:19:31+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] 1 jobs processed at 26.7507 j/s, 1 failed
+I, [2022-05-23T17:21:32.310422 #38272]  INFO -- : 2022-05-23T17:21:32+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=53) (queue=default) RUNNING
+E, [2022-05-23T17:21:32.313130 #38272] ERROR -- : 2022-05-23T17:21:32+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=53) (queue=default) FAILED (0 prior attempts) with NoMethodError: undefined method `title' for nil:NilClass
+I, [2022-05-23T17:21:32.326797 #38272]  INFO -- : 2022-05-23T17:21:32+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] 1 jobs processed at 30.9734 j/s, 1 failed
+I, [2022-05-23T17:22:32.491038 #38272]  INFO -- : 2022-05-23T17:22:32+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=53) (queue=default) RUNNING
+E, [2022-05-23T17:22:32.493827 #38272] ERROR -- : 2022-05-23T17:22:32+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=53) (queue=default) FAILED (1 prior attempts) with NoMethodError: undefined method `title' for nil:NilClass
+I, [2022-05-23T17:22:32.511645 #38272]  INFO -- : 2022-05-23T17:22:32+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] 1 jobs processed at 27.2549 j/s, 1 failed
+I, [2022-05-23T17:23:32.696055 #38272]  INFO -- : 2022-05-23T17:23:32+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=54) (queue=default) RUNNING
+I, [2022-05-23T17:23:32.750497 #38272]  INFO -- : 2022-05-23T17:23:32+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=54) (queue=default) COMPLETED after 0.0543
+I, [2022-05-23T17:23:32.753860 #38272]  INFO -- : 2022-05-23T17:23:32+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] 1 jobs processed at 11.5128 j/s, 0 failed
+
+
+
+
+
+I, [2022-05-23T17:25:33.087036 #38272]  INFO -- : 2022-05-23T17:25:33+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=55) (queue=default) RUNNING
+I, [2022-05-23T17:25:33.138910 #38272]  INFO -- : 2022-05-23T17:25:33+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=55) (queue=default) COMPLETED after 0.0518
+I, [2022-05-23T17:25:33.141149 #38272]  INFO -- : 2022-05-23T17:25:33+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] 1 jobs processed at 12.7825 j/s, 0 failed
+I, [2022-05-23T17:27:33.532832 #38272]  INFO -- : 2022-05-23T17:27:33+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=56) (queue=default) RUNNING
+E, [2022-05-23T17:27:33.535779 #38272] ERROR -- : 2022-05-23T17:27:33+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=56) (queue=default) FAILED (0 prior attempts) with NoMethodError: undefined method `title' for nil:NilClass
+I, [2022-05-23T17:27:33.578825 #38272]  INFO -- : 2022-05-23T17:27:33+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=57) (queue=default) RUNNING
+E, [2022-05-23T17:27:33.581272 #38272] ERROR -- : 2022-05-23T17:27:33+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=57) (queue=default) FAILED (0 prior attempts) with NoMethodError: undefined method `title' for nil:NilClass
+I, [2022-05-23T17:27:33.615399 #38272]  INFO -- : 2022-05-23T17:27:33+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=58) (queue=default) RUNNING
+E, [2022-05-23T17:27:33.616932 #38272] ERROR -- : 2022-05-23T17:27:33+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=58) (queue=default) FAILED (0 prior attempts) with NoMethodError: undefined method `title' for nil:NilClass
+I, [2022-05-23T17:27:33.631469 #38272]  INFO -- : 2022-05-23T17:27:33+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] 3 jobs processed at 25.4108 j/s, 3 failed
+I, [2022-05-23T17:29:33.964640 #38272]  INFO -- : 2022-05-23T17:29:33+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=60) (queue=default) RUNNING
+E, [2022-05-23T17:29:33.967837 #38272] ERROR -- : 2022-05-23T17:29:33+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Job SendMessage#perform_without_delay (id=60) (queue=default) FAILED (0 prior attempts) with NoMethodError: undefined method `title' for nil:NilClass
+I, [2022-05-23T17:29:33.980291 #38272]  INFO -- : 2022-05-23T17:29:33+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] 1 jobs processed at 34.8916 j/s, 1 failed
+I, [2022-05-23T17:30:15.106185 #38272]  INFO -- : 2022-05-23T17:30:15+0530: [Worker(delayed_job host:sf-cpu-539 pid:38272)] Exiting...
+I, [2022-05-23T17:30:35.402988 #41832]  INFO -- : 2022-05-23T17:30:35+0530: [Worker(delayed_job host:sf-cpu-539 pid:41832)] Starting job worker
+I, [2022-05-23T17:35:36.375526 #41832]  INFO -- : 2022-05-23T17:35:36+0530: [Worker(delayed_job host:sf-cpu-539 pid:41832)] Job Delayed::PerformableMethod (id=61) (queue=default) RUNNING
+E, [2022-05-23T17:35:36.378273 #41832] ERROR -- : 2022-05-23T17:35:36+0530: [Worker(delayed_job host:sf-cpu-539 pid:41832)] Job Delayed::PerformableMethod (id=61) (queue=default) FAILED permanently with Delayed::DeserializationError: Job failed to load: undefined method `yesterday' for nil:NilClass. Handler: "--- !ruby/object:Delayed::PerformableMethod\nobject: !ruby/object:SendMessage {}\nmethod_name: :perform_without_delay\nargs:\n- !ruby/object:Meeting\n  concise_attributes:\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: id\n    value_before_type_cast: 8\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: title\n    value_before_type_cast: basics\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: start_time\n    value_before_type_cast: 2022-05-24 17:35:00.000000000 Z\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: end_time\n    value_before_type_cast: 2022-05-24 17:55:00.000000000 Z\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: user_id\n    value_before_type_cast: 1\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: created_at\n    value_before_type_cast: 2022-05-23 12:02:55.096152000 Z\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: updated_at\n    value_before_type_cast: 2022-05-23 12:02:55.096152000 Z\n  new_record: false\n  active_record_yaml_version: 2\n"
+I, [2022-05-23T18:55:49.653976 #41832]  INFO -- : 2022-05-23T18:55:49+0530: [Worker(delayed_job host:sf-cpu-539 pid:41832)] Job Delayed::PerformableMethod (id=62) (queue=default) RUNNING
+E, [2022-05-23T18:55:49.658846 #41832] ERROR -- : 2022-05-23T18:55:49+0530: [Worker(delayed_job host:sf-cpu-539 pid:41832)] Job Delayed::PerformableMethod (id=62) (queue=default) FAILED permanently with Delayed::DeserializationError: Job failed to load: undefined method `yesterday' for nil:NilClass. Handler: "--- !ruby/object:Delayed::PerformableMethod\nobject: !ruby/object:SendMessage {}\nmethod_name: :perform_without_delay\nargs:\n- !ruby/object:Meeting\n  concise_attributes:\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: id\n    value_before_type_cast: 9\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: title\n    value_before_type_cast: basics\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: start_time\n    value_before_type_cast: 2022-05-23 13:25:00.000000000 Z\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: end_time\n    value_before_type_cast: 2022-05-23 13:35:00.000000000 Z\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: user_id\n    value_before_type_cast: 1\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: created_at\n    value_before_type_cast: 2022-05-23 13:25:41.332259000 Z\n  - !ruby/object:ActiveModel::Attribute::FromDatabase\n    name: updated_at\n    value_before_type_cast: 2022-05-23 13:25:41.332259000 Z\n  new_record: false\n  active_record_yaml_version: 2\n"
+I, [2022-05-24T11:29:45.995673 #32428]  INFO -- : 2022-05-24T11:29:45+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] Starting job worker
+I, [2022-05-24T11:29:46.023279 #32428]  INFO -- : 2022-05-24T11:29:46+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] Job SendMessage#perform_without_delay (id=64) (queue=default) RUNNING
+I, [2022-05-24T11:29:46.092552 #32428]  INFO -- : 2022-05-24T11:29:46+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] Job SendMessage#perform_without_delay (id=64) (queue=default) COMPLETED after 0.0691
+I, [2022-05-24T11:29:46.094625 #32428]  INFO -- : 2022-05-24T11:29:46+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] 1 jobs processed at 10.1533 j/s, 0 failed
+I, [2022-05-24T11:30:46.387349 #32428]  INFO -- : 2022-05-24T11:30:46+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] Job SendMessage#perform_without_delay (id=65) (queue=default) RUNNING
+I, [2022-05-24T11:30:46.455241 #32428]  INFO -- : 2022-05-24T11:30:46+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] Job SendMessage#perform_without_delay (id=65) (queue=default) COMPLETED after 0.0678
+I, [2022-05-24T11:30:46.457283 #32428]  INFO -- : 2022-05-24T11:30:46+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] 1 jobs processed at 12.2009 j/s, 0 failed
+I, [2022-05-24T11:35:47.246375 #32428]  INFO -- : 2022-05-24T11:35:47+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] Job SendMessage#perform_without_delay (id=66) (queue=default) RUNNING
+I, [2022-05-24T11:35:47.315548 #32428]  INFO -- : 2022-05-24T11:35:47+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] Job SendMessage#perform_without_delay (id=66) (queue=default) COMPLETED after 0.0691
+I, [2022-05-24T11:35:47.317850 #32428]  INFO -- : 2022-05-24T11:35:47+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] 1 jobs processed at 12.3464 j/s, 0 failed
+I, [2022-05-24T11:55:50.816953 #32428]  INFO -- : 2022-05-24T11:55:50+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] Job SendMessage#perform_without_delay (id=67) (queue=default) RUNNING
+E, [2022-05-24T11:55:51.709876 #32428] ERROR -- : 2022-05-24T11:55:51+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] Job SendMessage#perform_without_delay (id=67) (queue=default) FAILED (0 prior attempts) with NameError: undefined local variable or method `current_user' for #<SendMessage:0x00005618af596668>
+I, [2022-05-24T11:55:51.734470 #32428]  INFO -- : 2022-05-24T11:55:51+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] 1 jobs processed at 1.0773 j/s, 1 failed
+I, [2022-05-24T11:58:52.215414 #32428]  INFO -- : 2022-05-24T11:58:52+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] Job SendMessage#perform_without_delay (id=69) (queue=default) RUNNING
+E, [2022-05-24T11:58:52.265106 #32428] ERROR -- : 2022-05-24T11:58:52+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] Job SendMessage#perform_without_delay (id=69) (queue=default) FAILED (0 prior attempts) with NameError: undefined local variable or method `current_user' for #<SendMessage:0x00005618b4ddbc88>
+I, [2022-05-24T11:58:52.275615 #32428]  INFO -- : 2022-05-24T11:58:52+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] 1 jobs processed at 14.0906 j/s, 1 failed
+I, [2022-05-24T11:59:52.448677 #32428]  INFO -- : 2022-05-24T11:59:52+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] Job SendMessage#perform_without_delay (id=69) (queue=default) RUNNING
+I, [2022-05-24T11:59:56.371379 #32428]  INFO -- : 2022-05-24T11:59:56+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] Job SendMessage#perform_without_delay (id=69) (queue=default) COMPLETED after 3.9226
+I, [2022-05-24T11:59:56.374253 #32428]  INFO -- : 2022-05-24T11:59:56+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] 1 jobs processed at 0.2540 j/s, 0 failed
+I, [2022-05-24T12:05:57.240969 #32428]  INFO -- : 2022-05-24T12:05:57+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] Job SendMessage#perform_without_delay (id=70) (queue=default) RUNNING
+I, [2022-05-24T12:06:00.739736 #32428]  INFO -- : 2022-05-24T12:06:00+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] Job SendMessage#perform_without_delay (id=70) (queue=default) COMPLETED after 3.4986
+I, [2022-05-24T12:06:00.742107 #32428]  INFO -- : 2022-05-24T12:06:00+0530: [Worker(delayed_job host:sf-cpu-539 pid:32428)] 1 jobs processed at 0.2844 j/s, 0 failed
+I, [2022-05-24T19:07:37.708148 #120944]  INFO -- : 2022-05-24T19:07:37+0530: [Worker(delayed_job host:sf-cpu-539 pid:120944)] Starting job worker
+I, [2022-05-24T19:07:37.734722 #120944]  INFO -- : 2022-05-24T19:07:37+0530: [Worker(delayed_job host:sf-cpu-539 pid:120944)] Job SendMessage#perform_without_delay (id=71) (queue=default) RUNNING
+I, [2022-05-24T19:07:40.120378 #120944]  INFO -- : 2022-05-24T19:07:40+0530: [Worker(delayed_job host:sf-cpu-539 pid:120944)] Job SendMessage#perform_without_delay (id=71) (queue=default) COMPLETED after 2.3855
+I, [2022-05-24T19:07:40.122479 #120944]  INFO -- : 2022-05-24T19:07:40+0530: [Worker(delayed_job host:sf-cpu-539 pid:120944)] 1 jobs processed at 0.4142 j/s, 0 failed
+I, [2022-05-25T18:53:31.979450 #124490]  INFO -- : 2022-05-25T18:53:31+0530: [Worker(delayed_job host:sf-cpu-539 pid:124490)] Starting job worker
+I, [2022-05-25T19:00:33.295250 #124490]  INFO -- : 2022-05-25T19:00:33+0530: [Worker(delayed_job host:sf-cpu-539 pid:124490)] Job SendMessage#perform_without_delay (id=72) (queue=default) RUNNING
+I, [2022-05-25T19:00:34.922021 #124490]  INFO -- : 2022-05-25T19:00:34+0530: [Worker(delayed_job host:sf-cpu-539 pid:124490)] Job SendMessage#perform_without_delay (id=72) (queue=default) COMPLETED after 1.6266
+I, [2022-05-25T19:00:34.924239 #124490]  INFO -- : 2022-05-25T19:00:34+0530: [Worker(delayed_job host:sf-cpu-539 pid:124490)] 1 jobs processed at 0.6055 j/s, 0 failed
+I, [2022-05-25T19:08:41.569556 #124490]  INFO -- : 2022-05-25T19:08:41+0530: [Worker(delayed_job host:sf-cpu-539 pid:124490)] Exiting...
+I, [2022-05-25T19:09:03.125727 #128237]  INFO -- : 2022-05-25T19:09:03+0530: [Worker(delayed_job host:sf-cpu-539 pid:128237)] Starting job worker
+I, [2022-05-25T19:16:04.440824 #128237]  INFO -- : 2022-05-25T19:16:04+0530: [Worker(delayed_job host:sf-cpu-539 pid:128237)] Job SendMessage#perform_without_delay (id=73) (queue=default) RUNNING
+I, [2022-05-25T19:16:06.034150 #128237]  INFO -- : 2022-05-25T19:16:06+0530: [Worker(delayed_job host:sf-cpu-539 pid:128237)] Job SendMessage#perform_without_delay (id=73) (queue=default) COMPLETED after 1.5932
+I, [2022-05-25T19:16:06.036208 #128237]  INFO -- : 2022-05-25T19:16:06+0530: [Worker(delayed_job host:sf-cpu-539 pid:128237)] 1 jobs processed at 0.6190 j/s, 0 failed
