@@ -6,7 +6,6 @@ class TwilioClient
   end
 
   def send_text(user, message)
-    binding.pry
     client.api.account.messages.create(
       to: user.phone,
       from: phone_number,
