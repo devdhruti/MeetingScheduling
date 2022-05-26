@@ -9,3 +9,4 @@ public/packs/js
 bin
 .bundle
 yarn-error.log
+log

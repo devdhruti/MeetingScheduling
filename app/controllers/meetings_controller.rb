@@ -7,7 +7,7 @@ class MeetingsController < ApplicationController
     else
       meeting = current_user.meetings
     end
-    @meetings = meeting.all.order('start_time')
+    @meetings = meeting.order('start_time')
     @todays_meeting = @meetings.select {|x| x.start_time.day == Time.current.day}
     @upcoming_meeting = @meetings.select {|x| x.start_time.day > Time.current.day}
     @completed_meeting = @meetings.select {|x| x.start_time.day < Time.current.day}
