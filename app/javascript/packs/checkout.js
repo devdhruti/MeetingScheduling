@@ -71,7 +71,7 @@ document.addEventListener("turbolinks:load", function() {
     function addFieldToForm(form, token, field) {
       var hiddenInput = document.createElement('input');
       hiddenInput.setAttribute('type', 'hidden');
-      hiddenInput.setAttribute('name', "user[card_" + field + "]");
+      hiddenInput.setAttribute('name', "payment_card[card_" + field + "]");
       hiddenInput.setAttribute('value', token.card[field]);
       form.appendChild(hiddenInput);
     }

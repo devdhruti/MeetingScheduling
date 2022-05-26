@@ -22,6 +22,11 @@
       <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
     </div>
 
+    <div class="field">
+      <%= f.label :phone_number %><br />
+      <%= f.phone_field :phone, autocomplete: "phone" , placeholder: "+(91)123456789"%>
+    </div>
+
     <div class="actions">
       <%= f.submit "Sign up" %>
     </div>

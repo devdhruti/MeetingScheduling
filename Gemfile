@@ -24,9 +24,14 @@ gem 'jbuilder', '~> 2.7'
 
 # Authentication
 gem 'devise'
+gem 'phonelib'
+gem 'twilio-ruby'
 
 # for backgound processing
 gem 'sidekiq'
+gem 'delayed_job_active_record'
+gem "daemons"
+gem 'whenever', require: false
 
 # Add Admin panel
 gem 'activeadmin'

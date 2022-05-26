@@ -1,6 +1,12 @@
 ActiveAdmin.register AdminUser do
   permit_params :email, :password, :password_confirmation
 
+  member_action :login do
+    user = User.find_by(email: current_admin_user.email)
+    sign_in(user)
+    redirect_to root_path
+  end
+
   index do
     selectable_column
     id_column
@@ -9,6 +15,9 @@ ActiveAdmin.register AdminUser do
     column :sign_in_count
     column :created_at
     actions
+    column do |m|
+      link_to 'login', login_admin_admin_user_path(m)
+    end
   end
 
   filter :email
